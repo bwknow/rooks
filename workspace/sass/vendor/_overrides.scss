@@ -1,0 +1,32 @@
+
+.navbar{
+	background-image: url($main-page-background);
+        padding-top: 27px;
+     background-repeat: repeat;
+    background-position: 10% 20%; 
+    background-size:contain;
+    height: 150px;
+    background-color:#141414;
+}
+
+.navbar-inverse .navbar-brand {
+
+	padding-left:80px;
+	color: #f5f5f5;
+	font-size: 6.9em;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight:800;
+	
+}
+
+.well{
+	color: #ddd;
+    padding: 10px;
+    background-color:inherit;
+    border:0
+}
+
+.center{text-align: center;}
+
+.aside{background-color:#333;}

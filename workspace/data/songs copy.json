@@ -1,0 +1,284 @@
+[
+            {   
+                "id":"0",
+                "name":"Look At You Look At Me",
+                "artist":"Dave Mason",
+                "meta": {
+                    "parts":"false",
+                    "day":12,
+                    "year":2012, 
+                    "active":"false",
+                    "mp3":"./media/LookAtYouLookAtMe"
+                }
+            },
+
+                        {   
+                "id":"1",
+                "name":"Waitress",
+                "artist":"Freddy Jones Band",
+                "meta": {
+                    "parts":"false",
+                    "day":12,
+                    "year":2012, 
+                    "active":"false",
+                    "mp3":"./media/waitress"
+                }
+            },
+
+
+            {   
+                "id":"2",
+                "name":"World In Changes",
+                "artist":"Freddy Jones Band",
+                "meta": {
+                    "parts":"false",
+                    "day":12,
+                    "year":2012, 
+                    "active":"<false></false>",
+                    "mp3":"./media/WorldInChanges"
+                }
+            },
+            {   
+                "id":"3",
+                "name":"Dim",
+                "artist":"Dada",
+                "meta": {
+                    "parts":"false",
+                    "day":12,
+                    "year":2012, 
+                    "active":"false",
+                    "mp3":"./media/dim"
+                }
+            },
+            {   
+                "id":"4",
+                "name":"Shed My Skin",
+                "artist":"Blue Rodeo",
+                "meta": {
+                    "parts":"false",
+                    "day":12,
+                    "year":2012, 
+                    "active":"true",
+                    "mp3":"./media/shedmyskin"
+                }
+            },
+
+            {
+                "id":"5",
+                "name":"Flat Tire",
+                "artist":"Athenaeum",
+                "meta": {
+                    "parts":"false",
+                    "day":12,
+                    "year":2012, 
+                    "active":"true",
+                    "mp3":"./media/flattire"
+                }
+            },
+            {
+                "id":"6",
+                "name":"Protection",
+                "artist":"Lucinda Williams",
+                "meta": {
+                    "parts":"false",
+                    "day":12,
+                    "year":2012, 
+                    "active":"true",
+                    "mp3":"./media/protection"
+                }
+            },
+            {
+                "id":"7",
+                "name":"Am I Safe",
+                "artist":"Ryan Adams",
+                "meta": {
+                    "parts":"false",
+                    "day":28,
+                    "year":2010,
+                    "active":"false",
+                    "mp3":"./media/amisafe"
+                }
+            },           
+            {
+                "id":"8",
+                "name":"Trouble",
+                "artist":"Ryan Adams",
+                "meta": {
+                    "parts":"false",
+                    "day":28,
+                    "year":2010,
+                    "active":"true",
+                    "mp3":"./media/trouble"
+                }
+            },           
+            {
+                "id":"9",
+                "name":"Dance With Me",
+                "artist":"Old 97's",
+                "meta": {
+                    "parts":"false",
+                    "day":28,
+                    "year":2010,
+                    "active":"true",
+                    "mp3":"./media/dancewithme"
+                }
+            },           
+            {
+                "id":"10",
+                "name":"Snakebit Again",
+                "artist":"Bernard Allison",
+                "meta": {
+                    "parts":"false",
+                    "day":28,
+                    "year":2010,
+                    "active":"true",
+                    "mp3":"./media/snakebitagain"
+                }
+            },
+            {
+                "id":"11",
+                "name":"Rocks At The Moon",
+                "artist":"The Backsliders",
+                "meta": {
+                    "parts":"false",
+                    "day":12,
+                    "year":2012, 
+                    "active":"true",
+                    "mp3":"./media/throwinrocksatthemoon"
+                }
+            },
+            {
+                "id":"12",
+                "name":"Big Canal",
+                "artist":"Jon Dee Graham",
+                "meta": {
+                    "parts":"false",
+                    "day":12,
+                    "year":2012, 
+                    "active":"true",
+                    "mp3":"./media/bigcanal"
+                }
+            },
+            {
+                "id":"13",
+                "name":"Down In The Hole",
+                "artist":"Tom Waits",
+                "meta": {
+                    "parts":"false",
+                    "day":12,
+                    "year":2012, 
+                    "active":"true",
+                    "mp3":"./media/downinthehole"
+                }
+            },
+            {
+                "id":"14",
+                "name":"One Moment",
+                "artist":"Jon Dee Graham",
+                "meta": {
+                    "parts":"false",
+                    "day":12,
+                    "year":2012, 
+                    "active":"true",
+                    "mp3":"./media/onemoment"
+                }
+            },
+            {
+                "id":"15",
+                "name":"Twilight",
+                "artist":"Jon Dee Graham",
+                "meta": {
+                    "parts":"false",
+                    "day":12,
+                    "year":2012, 
+                    "active":"true",
+                    "mp3":"./media/twilight"
+                }
+            },
+            {
+                "id":"16",
+                "name":"Big Sweet Life",
+                "artist":"Jon Dee Graham",
+                "meta": {
+                    "parts":"false",
+                    "day":12,
+                    "year":2012, 
+                    "active":"true",
+                    "mp3":"./media/bigsweetlife"
+                }
+            },
+            {
+                "id":"17",
+                "name":"Turn Around",
+                "artist":"Whiskeytown",
+                "meta": {
+                    "parts":"false",
+                    "day":12,
+                    "year":2012, 
+                    "active":"true",
+                    "mp3":"./media/turnaround"
+                }
+            },
+            {
+                "id":"18",
+                "name":"Tie A Knot",
+                "artist":"Jon Dee Graham",
+                "meta": {
+                    "parts":"false",
+                    "day":12,
+                    "year":2012, 
+                    "active":"false",
+                    "mp3":"./media/tieaknot"
+                }
+            },
+            {
+                "id":"19",
+                "name":"Laredo",
+                "artist":"Jon Dee Graham",
+                "meta": {
+                    "parts":"false",
+                    "day":12,
+                    "year":2012, 
+                    "active":"true",
+                    "mp3":"./media/larado"
+                }
+            },
+            {
+                "id":"20",
+                "name":"Restraining Order",
+                "artist":"Jon Dee Graham",
+                "meta": {
+                    "parts":"false",
+                    "day":12,
+                    "year":2012, 
+                    "active":"false",
+                    "mp3":"./media/restrainingorder"
+                }
+            },
+            {
+                "id":"21",
+                "name":"Virginia",
+                "artist":"Gin Blossoms",
+                "meta": {
+                    "parts":"false",
+                    "day":12,
+                    "year":2012, 
+                    "active":"false",
+                    "mp3":"./media/virginia"
+                }
+            },
+            {
+                "id":"22",
+                "name":"Stay with me",
+                "artist":"Ryan Adams",
+                "meta": {
+                    "parts":"false",
+                    "day":12,
+                    "year":2012, 
+                    "active":"false",
+                    "mp3":"./media/staywithme"
+                 }
+            }
+       
+    ]
+

@@ -1,0 +1,57 @@
+/* SAS variables */
+
+$sbux-green				: #026433;
+$sbux-white				: #fffcfc;
+$sbux-tan				: #eac784;
+$sbux-black				: #362415;
+$sbux-brown				: #604c4c;
+$sbux-red				: #E50023;
+
+$nbc-yellow				: #FCB711;
+$nbc-orange				: #F37021;
+$nbc-red				: #CC004C;
+$nbc-purple				: #6460AA;
+$nbc-blue				: #0089D0;
+$nbc-green				: #0DB14B;
+$nbc-white				: #fffcfc;
+
+$yellow            		: $nbc-yellow;
+$orange					: $nbc-orange;
+$red					: $nbc-red;
+$purple        	  		: $nbc-purple;
+$blue        	  		: $nbc-blue;
+$green        	  		: $nbc-green;
+$white        	  		: $nbc-white;
+$black					: #362415;
+$gray           		: #708284;
+$darkgray				: #313C3D;
+$mediumgray     		: #536870;
+$lightgray      		: #D4D4D4;
+
+$facebook-blue          : #3b5998;
+$twitter-blue           : #00aced;
+$instagram-blue         : #125688;
+
+$color-primary			: #EAEAEA;
+$color-secondary		: #F7F7F7;
+$sleeve					: #DEB887;
+$box-shadow-color		: #888888;
+$font-color-primary   	: #f2f2f2;
+$button-colors			: #245557;
+$font-primary   		: 'Verndana', sans-serif;
+$font-secondary 		: 'Bree Serif', serif;
+$font-primary-size		: 16px;
+$cup-font				: 'Homemade Apple';
+$cup-default-color		: #F1F1EF;
+$defaultFont			: "Times New Roman", Georgia, Serif;
+$default-border-radius 	: 0px;
+$main-page-background	: '../images/bestof/bw-band-bg1.jpg';
+$title-logo-icon		: '../images/bestof/rooks-icon.png';
+
+body{
+    background-image: url($main-page-background);
+    background-color: $black;
+    font-family: $font-primary;
+    font-size: $font-primary-size;
+    color: $black;
+}

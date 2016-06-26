@@ -1,0 +1,11 @@
+<div class="aside-link"><a class="song-body" ui-sref="route2">View Song List</a></div>
+<div class="member" data-ng-repeat="p in members | orderBy: 'name' ">
+    <div class="member-img-container">
+        <div><img src="{{p.src}}" title="{{p.name}}" class="member-img"></div>
+        <div>{{p.name}}</div>
+        <div>{{p.job}}</div>
+    </div>
+    <div class="song-title">{{p.title}}</div>
+    <div class="song-body">{{p.body}}</div>
+</div>
+</div>

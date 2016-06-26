@@ -1,0 +1,8 @@
+<div class="aside-link"><a class="song-body" ui-sref="route3">Meet the Band</a></div>
+
+<div class="song" data-ng-repeat="p in songs | filter: songFilter | orderBy: 'name' ">
+    <div class="song-title">{{p.name}}</div>
+    <div class="song-body">{{p.artist}}</div>
+</div>
+
+

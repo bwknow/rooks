@@ -1,0 +1,30 @@
+<div ng-controller="MainCtrl">
+      <form name="contactForm" novalidate>
+        <!-- NAME -->
+        <div ng-class="{'form-error':contactForm.name.$dirty && contactForm.name.$invalid, 'form-group':true}">
+          <input type="text" name="name" ng-model="formData.name" placeholder="Volledige naam" ng-minlength="3" required="" />
+          <div ng-messages="contactForm.name.$error" ng-show="contactForm.name.$dirty" >
+            <div ng-message="minlength">Name too short</div>
+            <div ng-message="required">Required Name</div>
+          </div>
+        </div>
+        <!-- EMAIL -->
+        <div ng-class="{'form-error':contactForm.email.$dirty && contactForm.email.$invalid, 'form-group':true}">
+          <input type="email" name="email" ng-model="formData.email" placeholder="Email adres" required />
+          <div ng-messages="contactForm.email.$error" ng-show="contactForm.email.$dirty">
+            <div ng-message="email">Invalid Email</div>
+            <div ng-message="required">Required Email</div>
+          </div>
+        </div>
+        <!-- TEL -->
+        <div ng-class="{'form-error':contactForm.tel.$dirty && contactForm.tel.$invalid, 'form-group':true}">
+          <input type="text" name="tel" ng-pattern=/\d{3}-\d{3}-\d{4}/ ng-model="formData.tel" placeholder="Telefoonnummer" required />
+          <div ng-messages="contactForm.tel.$error" ng-show="contactForm.tel.$dirty">
+            <div ng-message="pattern">Valid form: XXX-XXX-XXXX</div>
+            <div ng-message="required">Required Phone</div>
+          </div>
+        </div>
+        <!-- SUBMIT BUTTON -->
+        <input type="submit" ng-click="processForm()" ng-disabled="contactForm.$invalid" value="Maak afspraak" />
+      </form>
+    </div>

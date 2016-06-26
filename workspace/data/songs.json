@@ -1,0 +1,324 @@
+[{
+        "id": "dontworrybaby",
+        "name": "Don't worry baby",
+        "artist": "Los Lobos",
+        "vocals": "brian",
+
+        "meta": {
+            "parts": "false",
+            "active": "true",
+            "mp3": "./media/LookAtYouLookAtMe"
+        }
+    },{
+        "id": "lookatyou",
+        "name": "Look At You Look At Me",
+        "artist": "Dave Mason",
+        "vocals": "brian",
+
+        "meta": {
+            "parts": "false",
+            "active": "false",
+            "mp3": "./media/LookAtYouLookAtMe"
+        }
+    },
+
+    {
+        "id": "waitress",
+        "name": "Waitress",
+        "artist": "Freddy Jones Band",
+        "vocals": "bob",
+        "meta": {
+            "parts": "false",
+
+            "active": "false",
+            "mp3": "./media/waitress"
+        }
+    },
+
+    {
+        "id": "manwhostoletheworld",
+        "name": "Man who stole the world",
+        "artist": "David Bowie",
+        "vocals": "brian",
+
+        "meta": {
+            "parts": "false",
+            "active": "false",
+            "mp3": "./media/WorldInChanges"
+        }
+    }, {
+        "id": "heroes",
+        "name": "Heroes",
+        "artist": "David Bowie",
+        "vocals": "brian",
+
+        "meta": {
+            "parts": "false",
+            "active": "true",
+            "mp3": "./media/WorldInChanges"
+        }
+    }, {
+        "id": "dim",
+        "name": "Dim",
+        "artist": "Dada",
+        "vocals": "bob",
+
+        "meta": {
+            "parts": "false",
+
+
+            "active": "false",
+            "mp3": "./media/dim"
+        }
+    }, {
+        "id": "shedmyskin",
+        "name": "Shed My Skin",
+        "artist": "Blue Rodeo",
+        "vocals": "brian",
+
+        "meta": {
+            "parts": "false",
+
+
+            "active": "true",
+            "mp3": "./media/shedmyskin"
+        }
+    },
+
+    {
+        "id": "flattire",
+        "name": "Flat Tire",
+        "artist": "Athenaeum",
+        "vocals": "bob",
+
+        "meta": {
+            "parts": "false",
+
+
+            "active": "true",
+            "mp3": "./media/flattire"
+        }
+    }, {
+        "id": "protection",
+        "name": "Protection",
+        "artist": "Lucinda Williams",
+        "vocals": "bob",
+
+        "meta": {
+            "parts": "false",
+
+
+            "active": "true",
+            "mp3": "./media/protection"
+        }
+    }, {
+        "id": "amisafe",
+        "name": "Am I Safe",
+        "artist": "Ryan Adams",
+        "vocals": "brian",
+
+        "meta": {
+            "parts": "false",
+            "day": 28,
+            "year": 2010,
+            "active": "false",
+            "mp3": "./media/amisafe"
+        }
+    }, {
+        "id": "trouble",
+        "name": "Trouble",
+        "artist": "Ryan Adams",
+        "vocals": "brian",
+
+        "meta": {
+            "parts": "false",
+            "day": 28,
+            "year": 2010,
+            "active": "true",
+            "mp3": "./media/trouble"
+        }
+    }, {
+        "id": "dancewithme",
+        "name": "Dance With Me",
+        "artist": "Old 97's",
+        "vocals": "brian",
+
+        "meta": {
+            "parts": "false",
+            "day": 28,
+            "year": 2010,
+            "active": "true",
+            "mp3": "./media/dancewithme"
+        }
+    }, {
+        "id": "snakebitagain",
+        "name": "Snakebit Again",
+        "artist": "Bernard Allison",
+        "vocals": "bob",
+
+        "meta": {
+            "parts": "false",
+            "day": 28,
+            "year": 2010,
+            "active": "false",
+            "mp3": "./media/snakebitagain"
+        }
+    }, {
+        "id": "rocksatthemoon",
+        "name": "Rocks At The Moon",
+        "artist": "The Backsliders",
+        "vocals": "brian",
+
+        "meta": {
+            "parts": "false",
+
+
+            "active": "true",
+            "mp3": "./media/throwinrocksatthemoon"
+        }
+    }, {
+        "id": "bigcanal",
+        "name": "Canal",
+        "artist": "Jon Dee Graham",
+        "vocals": "brian",
+
+        "meta": {
+            "parts": "false",
+
+
+            "active": "true",
+            "mp3": "./media/bigcanal"
+        }
+    }, {
+        "id": "downinthehole",
+        "name": "Down In The Hole",
+        "artist": "Tom Waits",
+        "vocals": "brian",
+
+        "meta": {
+            "parts": "false",
+
+
+            "active": "false",
+            "mp3": "./media/downinthehole"
+        }
+    }, {
+        "id": "onemoment",
+        "name": "One Moment",
+        "artist": "Jon Dee Graham",
+        "vocals": "brian",
+
+        "meta": {
+            "parts": "false",
+
+
+            "active": "true",
+            "mp3": "./media/onemoment"
+        }
+    }, {
+        "id": "twilight",
+        "name": "Twilight",
+        "artist": "Jon Dee Graham",
+        "vocals": "brian",
+
+        "meta": {
+            "parts": "false",
+
+
+            "active": "true",
+            "mp3": "./media/twilight"
+        }
+    }, {
+        "id": "bigsweetlife",
+        "name": "Big Sweet Life",
+        "artist": "Jon Dee Graham",
+        "vocals": "brian",
+
+        "meta": {
+            "parts": "false",
+
+
+            "active": "true",
+            "mp3": "./media/bigsweetlife"
+        }
+    }, {
+        "id": "turnaround",
+        "name": "Turn Around",
+        "artist": "Whiskeytown",
+        "vocals": "brian",
+
+        "meta": {
+            "parts": "false",
+
+
+            "active": "true",
+            "mp3": "./media/turnaround"
+        }
+    }, {
+        "id": "tieaknot",
+        "name": "Tie A Knot",
+        "artist": "Jon Dee Graham",
+        "vocals": "brian",
+
+        "meta": {
+            "parts": "false",
+
+
+            "active": "false",
+            "mp3": "./media/tieaknot"
+        }
+    }, {
+        "id": "laredo",
+        "name": "Laredo",
+        "artist": "Jon Dee Graham",
+        "vocals": "brian",
+
+        "meta": {
+            "parts": "false",
+
+
+            "active": "true",
+            "mp3": "./media/larado"
+        }
+    }, {
+        "id": "restrainingorder",
+        "name": "Restraining Order",
+        "artist": "Jon Dee Graham",
+        "vocals": "brian",
+
+        "meta": {
+            "parts": "false",
+
+
+            "active": "false",
+            "mp3": "./media/restrainingorder"
+        }
+    }, {
+        "id": "virginia",
+        "name": "Virginia",
+        "artist": "Gin Blossoms",
+        "vocals": "bob",
+
+        "meta": {
+            "parts": "false",
+
+
+            "active": "false",
+            "mp3": "./media/virginia"
+        }
+    }, {
+        "id": "staywithme",
+        "name": "Stay with me",
+        "artist": "Ryan Adams",
+        "vocals": "brian",
+
+        "meta": {
+            "parts": "false",
+
+
+            "active": "false",
+            "mp3": "./media/staywithme"
+        }
+    }
+
+]
