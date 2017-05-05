@@ -1,33 +1,37 @@
 [{
     "id": "1",
     "name": "Bob Virkelyst",
-    "job": "Vocals, Drums",
+    "slug": "bob",
+    "job": "Drums, Vocals",
     "src": "images/bestof/bob0-tn.png",
     "title": "solid groove and high-range vocals",
-    "body": "Bob has played in a variety of bands in Seattle, Portland, and Idaho, and has been singing lead and background vocals all along the way. Bob also performs with the popular local band Mojo Cannon.",
-    "active": "true"
-}, {
-    "id": "2",
-    "name": "Brian Knowles",
-    "job": "Vocals, Guitar",
-    "src": "images/bestof/brian0-tn.png",
-    "title": "sings with soul while his White Falcon takes flight",
-    "body": "After a long hiatus from music, Brian has reawakened his musical passion and teamed up with his ol’ high school buddy Jim Brandt along with Frank James and Bob Virkelyst to play as The Rooks again. Brian has performed with a wide range of bands including Marileee Rush, Blue Max, Penrose, Babes in Boyland, and many others.",
+    "body": "Bob’s amazing high-range voice and his drums are a thrill to behold. He’s played in a variety of bands in Seattle, Portland, and Idaho, and  singing all along the way. ￼",
     "active": "true"
 }, {
     "id": "3",
-    "name": "Frank James",
-    "job": "Guitar",
-    "src": "images/bestof/frank0-tn.png",
-    "title": "infuses blazing guitar solos with cool passion and finesse",
-    "body": "Frank has played guitar in Seattle-area bands for a number of years. His love of music and guitar has kept him busy either as performer or student. Frank's musical tastes range from jazz-blues to rock to classical.",
+    "name": "Brian Knowles",
+    "slug": "brian",
+    "job": "Guitar, Vocals",
+    "src": "images/bestof/brian0-tn.png",
+    "title": "sings with soul while his White Falcon takes flight",
+    "body": "Singing is his passion and guitar his love. ￼Brian has performed with a wide range of bands including Marilee Rush, Blue Max, Penrose, and Babes in Boyland.",
     "active": "true"
 }, {
     "id": "4",
+    "name": "Frank James",
+    "slug": "",
+    "job": "Guitar",
+    "src": "images/bestof/frank0-tn.png",
+    "title": "infuses blazing guitar solos with cool passion and finesse",
+    "body": "Frank's musical tastes range from jazz-blues to rock to classical. His love of music and guitar keeps him busy either as performer or student.",
+    "active": "true"
+}, {
+    "id": "2",
     "name": "Jim Brandt",
+    "slug": "",
     "job": "Bass",
     "src": "images/bestof/jim0-tn.png",
     "title": "solid bass and rich powerful tones that drive",
-    "body": "Jim has been playing in groups around Seattle for many years, and is currently also the bassist for Mojo Cannon. Jim is passionate about his love for Americana and alt country.",
+    "body": "Jim is passionate about his love for Americana and alt country music. Jim also plays bass for the popular Seattle band Mojo Cannon.",
     "active": "true"
 }]

@@ -1,0 +1,51 @@
+
+<div class="container-aside">
+    
+<p class="song-body">
+    <i class="rooks-icon"></i>
+    
+    
+    The Rooks is made up of four Seattle-area musicians with deep roots 
+    in Americana, Rock and Blues.
+Their unique blend of soulful vocals, driving rhythm and dynamic two-pronged guitar virtuoso
+ is truly inspiring.
+</p>
+<p class="song-body">
+The band was originally known as Frank and the Big Shots and
+played several Seattle venues, including the High Dive, Nectar, 
+    the Horseshoe Saloon, 
+    the Central Saloon down in Pioneer Square, and the Ballard Eagles.
+ </p>
+<p class="song-body">
+    Now with a new lineup and all new music, the band continues to evolve 
+and expand musical boundaries while staying true to their creative open spirit
+and amazing musical journey. 
+</p>
+
+<p>
+    <br>
+
+
+</p>
+<div class="member" data-ng-repeat="member in members | orderBy: 'id' ">
+    <!--
+    <div class="member-img-container">
+        <img src="{{member.src}}" title="{{member.name}}" class="member-img">
+        
+        <div>{{member.name}}</div>
+    </div>
+    -->
+    <div class="song-title">{{member.name}}, {{member.job}}</div>
+    <div class="song-body">{{member.body}}
+    
+         <!--<a ng-show="member.slug" ui-sref="{{member.slug}}" title="{{member.name}} songs">Songs</a>-->
+
+    </div>
+
+
+</div>
+
+
+
+
+</div>

@@ -1,9 +1,16 @@
+ body{
+    overflow-x: hidden;
+    width: 100%;
+    background-size: cover !important;
+ } 
+    
 .member-img-container {
     float: right;
-    font-size: .7em;
+    font-size: .7rem;
     text-align: center;
     padding-left: 10px;
     padding-bottom: 10px;
+    color: #9d9d9d;
 }
 
 .img-resize {
@@ -16,30 +23,36 @@ p {
     margin: 1px 15px;
 }
 
+a{ color: $yellow;}
+a:hover{ color: yellow;}
+
 .member-img {
     width: 60px;
     height: 60px;
     float: right;
-    border-radius: 50%;
+    border-radius: 10%;
+    opacity : .6;
 }
 
 .member-title {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     color: #643900;
     padding-bottom: 5px;
-        text-transform: capitalize;
+    text-transform: capitalize;
 }
 
 .member {
     margin: 1px;
-    padding: 5px 5px 15px 5px;
+    padding: 5px 5px 35px 5px;
 }
 
 .member-body {
     color: #000;
-    font-size: .8em;
+    font-size: .9em;
     line-height: 20px;
 }
+
+.page-title{}
 
 .song-img {
     width: 60px;
@@ -49,10 +62,25 @@ p {
 }
 
 .song-title {
-    font-size: 1em;
-    text-transform: uppercase;
-    color: #d1ad68;
+    font-size: 1.3em;
+    text-transform: capitalize;
+    color: $orange-lite;
 }
+
+#song-title-container {
+    font-size: .9em;
+    text-transform: capitalize;
+    color: $green-lite;
+    text-align: right;
+    clear: both;
+    b {
+        font-size: 1.1em;
+        color: $yellow;
+    }
+}
+
+.song-title:hover{color: yellow;}
+.song-title span{cursor: pointer;}
 
 .song {
     margin: 2px;
@@ -60,51 +88,225 @@ p {
 }
 
 .song-body {
-    color: #aa8;
-    font-size: .8em;
+    color: $green-lite;
+    font-size: 1.1em;
 }
 
-.aside-link {
-    padding-bottom: 40px;
-    width: 100%;
+.sidebar-title{
+    color:$orange-lite;
+    text-align: center;
 }
-
-.aside-link a {
-    float: right;
-}
-
 .menu-logo {
     padding-left: 20px;
 }
 
-.footer {
-    text-align: center;
-    width: 100%;
-    height: 20px;
-    background-color: #f5f5f5;
-    color: #000;
-    font-size:.8em;
-}
-
 p {
     margin: 10px 10px;
-    font-size:1em; 
+    font-size: 1em;
 }
-.about{font-size:.9em;}
 
-.rooks-icon{
-    background-image: url($title-logo-icon);
+.about {
+    font-size: 1.1em;
+}
+
+.rooks-icon {
+    background-image: url($logo-title-icon);
     padding-top: 1px;
     background-repeat: no-repeat;
-    background-position: 20% 20%; 
-    background-size:contain;  
-    float:right;
-    
-    width:50px;height:50px;  
-    
+    background-position: 20% 20%;
+    background-size: contain;
+    float: right;
+    width: 50px;
+    height: 50px;
 }
 
-#band-photo{
+
+#band-photo {
     border-radius: 1%;
+    -webkit-filter: grayscale(70%);    
+    -moz-filter: grayscale(70%);    
+    -ms-filter: grayscale(70%);    
+    -o-filter: grayscale(70%);
+    filter: grayscale(70%);
+    -webkit-transition: all 4s ease-out 0s;
+    -moz-transition: all 4s ease-out 0s;
+    -ms-transition: all 4s ease-out 0s;
+    -o-transition: all 4s ease-out 0s;
+    transition: all 4s ease-out 0s;
+    opacity:.8;
 }
 
+#band-photo:hover {
+    border-radius: 1%;
+    
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+   -webkit-filter: grayscale(100%);    
+    -moz-filter: grayscale(100%);    
+    -ms-filter: grayscale(100%);    
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+
+    }
+
+x#band-photo {
+    border-radius: 1%;
+    -webkit-filter: grayscale(100%);    
+    -moz-filter: grayscale(100%);    
+    -ms-filter: grayscale(100%);    
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: all 4s ease-out 0s;
+    -moz-transition: all 4s ease-out 0s;
+    -ms-transition: all 4s ease-out 0s;
+    -o-transition: all 4s ease-out 0s;
+    transition: all 4s ease-out 0s;
+    opacity:.8;
+}
+
+x#band-photo:hover {
+    border-radius: 1%;
+    -webkit-filter: grayscale(1%);
+    filter: grayscale(0%);
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    opacity: 0;
+    
+    }
+
+x.hide-band {
+    border-radius: 1%;
+    -webkit-filter: grayscale(1%);
+    filter: grayscale(0%);
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    opacity: 0;
+    
+    }
+    
+.lineitem {
+    line-height: 1.8em;
+    font-size: 1.7em;
+    display: inline;
+    font-family:$font-intro-main;
+    text-align: center;
+    top: -20px;
+    position: absolute;
+}
+
+.lineitem span {
+    padding: 0.2em;
+    box-shadow: 0.2em 0 0 rgba(#808080  , 0.7), -0.2em 0 0 rgba(#808080, 0.7);
+    background-color: #808080;
+    background-color: rgba(#808080, 0.4);
+    
+}
+
+.active{color: $yellow !important;}
+
+
+.footer {
+    border-top: 1px solid #555;
+    width: 100%;
+    height: 30px;
+    background-color: $black;
+    color: $white;
+    font-size: .8em;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    vertical-align: center;
+    padding-top:5px;
+}
+.footer a {color:$orange-lite;}
+
+header {
+    font-size: .8em;
+    text-align: center;
+    display: block;
+    line-height: 30px;     
+    
+    color: $white;
+}
+
+header img.logo {
+    width: 33px;
+    float: left;
+    padding: 3px 0px 3px 10px;
+}
+
+
+video {height:1px;}
+
+
+#play-buttons{
+    margin-left: 3px;
+    
+    display: inline-block;
+    span { 
+        color: $yellow;
+        font-family: $font-family-base;
+        
+        cursor: pointer;
+}
+     span:hover{color: yellow;}
+     i{
+         color:$orange-lite;
+         margin-left: 20px;
+     }
+     i:hover{color: yellow;}
+     
+}
+
+#band-photo-container{
+    color: $white;
+    width: inherit !important;
+    padding-top:100px;
+     border-radius: 5px;
+}
+
+
+.aside-link{display: none;
+    
+}
+
+.music-all{
+    float: right; 
+    font-size: .8em !important;
+    font-weight: normal;
+    
+    
+}
+a.music-all{
+   color:$orange-lite; 
+}
+
+.rating{color: yellow;}
+
+
+hr.boxshadow {
+    border-top: 1px solid $orange-lite;
+    width: 50%;
+}
+
+.page-title {
+    position: relative;
+}
+
+.center{text-align: center;}
+
+.container-aside {
+    background-color: rgba(51,51,51,.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#player-control{
+    display: none;
+    position: relative;
+    color: $white;
+    text-align: center;
+}

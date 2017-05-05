@@ -1,11 +1,24 @@
-<div class="aside-link"><a class="song-body" ui-sref="route2">View Song List</a></div>
-<div class="member" data-ng-repeat="p in members | orderBy: 'name' ">
-    <div class="member-img-container">
-        <div><img src="{{p.src}}" title="{{p.name}}" class="member-img"></div>
-        <div>{{p.name}}</div>
-        <div>{{p.job}}</div>
-    </div>
-    <div class="song-title">{{p.title}}</div>
-    <div class="song-body">{{p.body}}</div>
+<div class="aside-link">
+    <a ui-sref="route3" class="active">The Rooks</a>
+    <a ui-sref="route2">The Music</a> 
+    <a ui-sref="route4">The Story</a>
 </div>
+
+<br>
+
+<div class="member" data-ng-repeat="member in members | orderBy: 'id' ">
+    <div class="member-img-container">
+        <!--<img src="{{member.src}}" title="{{member.name}}" class="member-img">-->
+        <div>{{member.name}}</div>
+        <div>{{member.job}}</div>
+    </div>
+
+    <div class="song-title">{{member.title}}</div>
+    <div class="song-body">{{member.body}}
+    
+         <a ng-show="member.slug" ui-sref="{{member.slug}}" title="{{member.name}} songs">Songs</a>
+
+    </div>
+
+
 </div>

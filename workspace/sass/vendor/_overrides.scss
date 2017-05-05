@@ -1,32 +1,121 @@
-
-.navbar{
-	background-image: url($main-page-background);
-        padding-top: 27px;
-     background-repeat: repeat;
-    background-position: 10% 20%; 
-    background-size:contain;
-    height: 150px;
-    background-color:#141414;
+.navbar-header{
+    position: relative;
+    top: 6px;
 }
+.navbar {
+    background-image: url($header-background-image);
+    padding-top: 13px;
+    background-repeat: no-repeat;
+    background-position: 10% 20%;
+    background-size: cover;
+    height: 90px;
+    background-color: $black;
+}
+
+.nav .navbar-nav li a{
+    padding: 20px;
+    
+}
+
+.nav>li{
+    color: $white;
+    font-weight: normal;
+    font-size:.8em;
+}
+.navbar-inverse .navbar-nav>li>a:hover{color: yellow;}
 
 .navbar-inverse .navbar-brand {
 
-	padding-left:80px;
-	color: #f5f5f5;
+	padding-left:50px;
+	color: $white;
 	font-size: 6.9em;
 	text-transform: uppercase;
-	letter-spacing: 5px;
+	letter-spacing: 10px !important;
 	font-weight:800;
-	
+	font-family:$font-title-main;
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #e7e7e7;
+    z-index: 10000;
+    margin-left: 20px;
+    font-size: 1.5em;
 }
 
 .well{
 	color: #ddd;
     padding: 10px;
     background-color:inherit;
-    border:0
+    border:0;
+    margin-bottom: 0;
+    margin-top: 10px
+   
 }
 
-.center{text-align: center;}
 
-.aside{background-color:#333;}
+.aside{
+    
+    max-height: 460px;
+    overflow: auto;
+    margin-top: 40px;
+}
+
+.aside-link {
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+    background-color:#040404;
+    a {
+       padding-left:10px;
+        display:inline;
+        color: #d1ad68;
+        font-size:1em;
+    }
+    a:hover {
+        color: yellow;
+        
+    }
+}
+
+article {
+    background-color: rgba(51, 51, 51, 0.5);
+    border-radius: 5px !important;
+    width: auto;
+    max-height: 452px;
+    overflow: auto;
+    margin: 0;
+    p { 
+        color: #aa8;
+        font-size: 1.2em;
+        margin: 0;
+        padding: 0 0 20px 0;
+        width: auto;
+        font-weight: normal !important;
+    }
+}
+
+article header {
+    h1{   
+        margin: 0;
+        padding: 10px 0 1px 0;
+        color: $orange-lite;
+        text-transform: capitalize;
+    }
+    h3{    
+        margin-top: 0px;
+        margin-bottom: 10px;
+         color: $orange-lite;
+         font-size: .9em;
+         text-transform: capitalize;
+    }
+}

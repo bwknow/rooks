@@ -4,9 +4,12 @@
 @import "global/settings";
 @import "component/fonts";
 @import "vendor/fontawesome";
-
-@import "component/mediaqueries";
 @import "util/util";
 @import "page/band";
 @import "vendor/overrides";
+@import "component/mediaqueries";
 
+
+
+//@import "component/audioplayer";
+//http://www.htmlgoodies.com/html5/javascript/build-an-html5-audio-player.html

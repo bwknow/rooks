@@ -1,80 +1,79 @@
 <!DOCTYPE html>
-<html ng-app="myapp">
+<html data-ng-app="myapp">
 
 <head>
+  
   <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
     <meta charset="UTF-8">
-
-    <title>The Rooks</title>
+    <title>The Rooks!</title>
+ 
     <link href="css/app.css" rel="stylesheet">
 </head>
 
 <body id="ROOKS" ng-controller="MainCtrl as cntrl">
 
 
-    <div id="main-container" class="container-fluid">
+<div id="main-container" class="container-fluid">
   
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a title="The Rooks" class="navbar-brand" ui-sref="band" reset>Brian Knowles & The Rooks</a>
+    </div>
+   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-                <!-- Brand and toggle mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" ui-sref="index">The Rooks</a>
-                </div>
-                
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                   <!--
-                    <ul class="nav navbar-nav">
-                        <li><a ui-sref="index">Home</a></li>
-                        <li><a ui-sref="route1">Media</a></li>
-                    </ul>
-               -->
-                    <i class="rooks-icon"></i>
-                </div>
-
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container-fluid -->
-        </nav>
-
-
-
-
-
+      <ul class="nav navbar-nav">
+        <li><a title="The Band" class="active" ui-sref="band({id: 1})">The Band</a></li>
+        <li><a title="The Music" ui-sref="music">The Music</a> 
+        </li>
+       </ul>
+       
+      <div id="song-title-container"></div>
+    </div><!-- /.navbar-collapse -->
+    
+  </div><!-- /.container-fluid -->
+</nav>
 
         <div class="row">
             <div class="col-sm-8">
                 
-                <div class="well" ui-view="viewB">viewC</div>
-                <div class="well center" ui-view="viewA">viewA</div>
-                <div class="well" ui-view="viewC">viewB</div>
+                <div class="well page-title" ui-view="viewB"></div>
+                <div class="well center" ui-view="viewA"></div>
+               
             </div>
-            <div class="col-sm-4">
-                <div class="well aside" ui-view="viewD">viewD</div>
+        <div class="col-sm-4">
+          
+          
+          <div id="player-control">
+             
+              <audio class="audio" id="audio-player" controls >
+                <source src="" type="audio/mpeg">
+              </audio>
+             
+           </div>   
+                <div id="aside" class="well aside" ui-view="viewD"></div>
             </div>
         </div>
 
-
     </div>
     
-
-    <footer class="footer">
-        <div ng-include="'views/footer.html'"></div>
-    </footer>
+    <div class="footer" ng-include="'views/footer.html'"></footer>
+    
+    
     <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/angular.js"></script>
+     <script src="js/vendor/angular.js"></script>
     <script src="js/vendor/angular-ui-router.js"></script>
     <script src="js/vendor/bootstrap.js"></script>
     <script src="scripts/app.js"></script>
     <script src="scripts/services.js"></script>
     <script src="scripts/controllers.js"></script>
+    <script src="scripts/directives.js"></script>    
     <script src="js/app.js"></script>
 </body>
 

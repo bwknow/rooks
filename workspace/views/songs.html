@@ -1,8 +1,30 @@
-<div class="aside-link"><a class="song-body" ui-sref="route3">Meet the Band</a></div>
-
-<div class="song" data-ng-repeat="p in songs | filter: songFilter | orderBy: 'name' ">
-    <div class="song-title">{{p.name}}</div>
-    <div class="song-body">{{p.artist}}</div>
+<div class="aside-link">
+    <a ui-sref="route3">The Rooks</a>
+    <a ui-sref="route2" class="active">The Music</a> 
+    <a ui-sref="route4">The Story</a>
 </div>
 
+<div class="container-aside">
+ 
+    <div class="song" data-ng-repeat="song in songs | filter: songFilter | orderBy: 'order' ">
+    <div class="song-title" rating="{{song.meta.rating}}">
+        
+        <span title="{{song.name}}" playsong lyrics id="{{song.id}}" src="{{song.meta.mp3}}" >{{song.name}}</span>
+
+        <div id="play-buttons" ng-show="song.meta.mp3">
+           <!-- <span class="btn-play" title="Play Song"  playsong id="{{song.id}}" src="{{song.meta.mp3}}"  ><i class="fa fa-volume-up" aria-hidden="true"></i></span>-->
+           
+           <!-- <span class="btn-play" title="Stop Song" pausesong id="{{song.id}}" src="{{song.meta.mp3}}" ><i class="fa fa-ban" aria-hidden="true"></i></span>-->
+            <span class="btn-play" title="Lyrics" lyrics ng-show="song.meta.lyrics" id="{{song.id}}"><i class="fa fa-file-text-o" aria-hidden="true"></i></span>
+        </div>
+
+    </div>
+
+    <!--<div class="song-body">{{song.artist}}</div>-->
+
+</div>
+<div><a ui-sref="music-all" class="music-all">View All</a>
+</div>
+</div>
+    
 
